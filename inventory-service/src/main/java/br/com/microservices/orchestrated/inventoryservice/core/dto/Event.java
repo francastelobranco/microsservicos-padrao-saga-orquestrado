@@ -21,6 +21,6 @@ public class Event {
     private Order payload;
     private String source;
     private ESagaStatus status;
-    private List<History> eventHitory;
+    private List<History> eventHistory;
     private LocalDateTime createdAt;
 }

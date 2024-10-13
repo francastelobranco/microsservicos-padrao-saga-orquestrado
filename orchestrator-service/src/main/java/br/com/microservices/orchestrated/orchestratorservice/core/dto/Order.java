@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Order {
 
-    private String ig;
+    private String id;
     private List<OrderProduct> products;
     private LocalDateTime createdAt;
     private String transactionId;
